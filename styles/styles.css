@@ -29,8 +29,8 @@
 }
  
  header li{
-  float:left;
-  display: inline;
+   display: inline;
+ float:left;
   padding:0 20px 0 20px;
 }
  
@@ -56,25 +56,27 @@
  /*showcase*/
  #showcase{
   min-height: 400px;
-  background:url('../img/showcase.jpg') no-repeat 0 -400px;
+  background-image:url(https://ak3.picdn.net/shutterstock/videos/21157663/thumb/1.jpg);
+  
   text-align: center;
   color:#000066;
 }
  
  
  #showcase h1{
-  margin-top: 180px;
-  font-size: 55px;
+  margin-top: 50px;
+  font-size: 90px;
   margin-bottom: 10px;
+  
  }
  
  #showcase p{
-  font-size: 20px;
+  font-size: 50px;
  }
  
 
- #press{
-  background-image: url(https://ak4.picdn.net/shutterstock/videos/14227904/thumb/1.jpg); 
+ #presses{
+   background-image: url(https://i.redd.it/g7z99li4jhiz.jpg);
  }
  
  /*Boxes*/
